@@ -1,0 +1,108 @@
+* {
+    padding: 1px;
+    margin: 1px;
+    width: 90%;
+    position: relative;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+
+
+}
+
+body {
+    background: url(https://tribuildsys.com/wp-content/uploads/2020/05/construction-billing-workflow-software.png) no-repeat;
+    background-size: cover;
+
+}
+
+header {
+    margin: 2px;
+    padding: 2px;
+    text-align: center;
+    background: url(https://th.bing.com/th/id/OIP.JS3UlmV148dtw9zKCStYswAAAA?pid=ImgDet&rs=1) no-repeat;
+    background-size: contain;
+    background-position: 10%;
+    display: flex;
+    justify-content: space-between;
+}
+
+header .navbar a {
+    color: black;
+    background: darkgray;
+    text-decoration: none;
+    letter-spacing: 1px;
+    font-weight: 500;
+    padding: 2px 15px;
+    border-radius: 20px;
+    transition: 0.3s;
+    transition-property: background;
+}
+
+
+section {
+    position: relative;
+    width: 100%;
+    min-height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+
+}
+
+header .navbar a:not(:last-child) {
+    margin-right: 30px;
+}
+
+header .navbar a:hover {
+    background: #fff;
+}
+
+section .container h2 {
+    font-weight: 1000;
+    color: darkred;
+    text-align: center;
+    letter-spacing: 1px;
+    line-height: 60px;
+    margin-bottom: 30px;
+}
+
+section .Home {
+    text-align: right;
+    align-content: space-between;
+    font-size: 50px;
+
+}
+
+.container {
+    max-width: 400px;
+    margin: 50px 60px;
+
+
+}
+
+section .Contact p {
+    color: royalblue;
+
+}
+
+section #Services #About #Home {
+    text-align: justify;
+    color: #436427;
+}
+
+@media(max-width:960px) {
+    header .navbar {
+        display: none;
+    }
+
+}
+
+footer {
+    margin: 20px;
+    padding: 25px;
+    font-size: larger;
+    color: darkslategray;
+
+}
